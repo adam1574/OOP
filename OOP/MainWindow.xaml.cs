@@ -20,19 +20,33 @@ namespace OOP
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        car auto1;
+        car auto2;
+
         public MainWindow()
         {
             InitializeComponent();
 
 
 
-            car auto1 = new car("Škoda");
+            auto1 = new car("Škoda");
             auto1.Type = "osobní auto";
 
-            car auto2 = new car("VW");
+            auto2 = new car("VW");
             auto2.Type = "Dodávka";
 
 
+        }
+        public void ShowVehicle(car car, TextBox textBox)
+        {
+            textBox.Text = $"Brand: {car.Brand}\n";
+            textBox.Text = $"Type: {car.Type}\n";
+            textBox.Text = $"Fuel: {car.Fuel}\n";
+            textBox.Text = $"Engine volume: {car.EngineVolume}\n";
+            textBox.Text = $"Fuel level: {car.FuelLevel}\n";
+            textBox.Text = $"Distance: {car.Distance}\n";
+            textBox.Text = $"Pneu stav: {car.PneuState}\n";
         }
     }
 }
