@@ -11,6 +11,8 @@
         <TextBox Name="txt2" Text="text2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="324" Height="311" Margin="428,55,0,0" TextAlignment="Center"></TextBox>
         <Button Content="Move" HorizontalAlignment="Center" VerticalAlignment="Top" Height="73" Width="92" Margin="0,333,0,0" Click="Button_Click"></Button>
         <Button Content="Full fuel" HorizontalAlignment="Center" VerticalAlignment="Top" Height="52" Width="92" Margin="0,257,0,0" Click="Button_Click_1"></Button>
-
+        <Button Content="Pneu change" HorizontalAlignment="Center" VerticalAlignment="Top" Height="52" Width="92" Margin="0,165,0,0" Click="Button_Click_2"></Button>
+        <Button Content="+" HorizontalAlignment="Left" Margin="467,366,0,0" VerticalAlignment="Top" Height="32" Width="32" Click="Button_Click_3" />
+        <Button Content="-" HorizontalAlignment="Left" Margin="304,366,0,0" VerticalAlignment="Top" Height="32" Width="32" />
     </Grid>
 </Window>
