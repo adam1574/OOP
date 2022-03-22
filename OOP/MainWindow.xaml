@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Name="txt1" Text="text1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="322" Height="311" Margin="60,55,0,0"></TextBox>
-        <TextBox Name="txt2" Text="text2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="324" Height="311" Margin="428,55,0,0"></TextBox>
+        <TextBox Name="txt1" Text="text1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="322" Height="311" Margin="60,55,0,0" TextAlignment="Center"></TextBox>
+        <TextBox Name="txt2" Text="text2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="324" Height="311" Margin="428,55,0,0" TextAlignment="Center"></TextBox>
         <Button Content="Move" HorizontalAlignment="Center" VerticalAlignment="Top" Height="73" Width="92" Margin="0,333,0,0" Click="Button_Click"></Button>
+        <Button Content="Full fuel" HorizontalAlignment="Center" VerticalAlignment="Top" Height="52" Width="92" Margin="0,257,0,0" Click="Button_Click_1"></Button>
 
     </Grid>
 </Window>

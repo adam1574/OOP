@@ -58,5 +58,14 @@ namespace OOP
             ShowVehicle(auto1, txt1);
             ShowVehicle(auto2, txt2);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            auto1.FuelLevel = 100;
+            ShowVehicle(auto1, txt1);
+            auto2.FuelLevel = 100;
+            ShowVehicle(auto2, txt2);
+
+        }
     }
 }
